@@ -24,7 +24,7 @@
 	</category>  
 	
    <root>
-      <priority value="DEBUG" />
+      <priority value="INFO" />
       <appender-ref ref="saida"/>
    </root>
    

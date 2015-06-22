@@ -1,0 +1,7 @@
+com/obomprogramador/mservice/signature/signer/SignerSample.class
+com/obomprogramador/mservice/signature/signer/SignatureApplication.class
+com/obomprogramador/mservice/signature/signer/SampleDocument.class
+com/obomprogramador/mservice/signature/signer/SignatureConfiguration.class
+com/obomprogramador/mservice/signature/signer/SignatureResource.class
+com/obomprogramador/mservice/signature/signer/SignatureHealthCheck.class
+com/obomprogramador/mservice/signature/signer/VerifySignature.class

@@ -1,0 +1,4 @@
+keytool -genkey -keyalg RSA -alias meucertificado -keystore minhakeystore.jks -storepass teste001 -validity 360 -keysize 2048
+keytool -export -keystore minhakeystore.jks -alias meucertificado -file meucertificado.cer
+
+keytool -importcert -file meucertificado.cer -keystore verifykeystore.jks -alias "meucertificado" 

@@ -1,0 +1,11 @@
+keystorePath: "*"
+alias: meucertificado
+keystorePassword: teste001
+zpServerAddress: 10.29.131.148:2181
+server:
+  applicationConnectors:
+  - type: http
+    port: 3000
+  adminConnectors:
+  - type: http
+    port: 3001

@@ -14,7 +14,7 @@
     <configVersion>2</configVersion>
     <userRemoteConfigs>
       <hudson.plugins.git.UserRemoteConfig>
-        <url>/Users/cleutonsampaio/Documents/projetos/DERJOGit</url>
+        <url>/Users/cleutonsampaio/Documents/projetos/ServKeeperGit</url>
       </hudson.plugins.git.UserRemoteConfig>
     </userRemoteConfigs>
     <branches>
@@ -54,15 +54,9 @@
       <command>export DOCKER_HOST=tcp://192.168.59.103:2376
 export DOCKER_CERT_PATH=/Users/cleutonsampaio/.boot2docker/certs/boot2docker-vm
 export DOCKER_TLS_VERIFY=1
-cp $WORKSPACE/signature/target/signature-0.0.1-SNAPSHOT.jar .
-cp $WORKSPACE/signature/src/main/resources/signature.yml .
-cp $WORKSPACE/signature/Dockerfile .
-/usr/local/bin/docker ps
-set +e
-/usr/local/bin/docker rm -f signatureserver
-set -e
-/usr/local/bin/docker build -t &quot;signatureimage&quot; .
-/usr/local/bin/docker run -d -p 3000:3000 --name signatureserver signatureimage</command>
+cp $WORKSPACE/signature/target/signature-0.0.1-SNAPSHOT.jar /Users/cleutonsampaio/Documents/projetos/dockertest
+cp $WORKSPACE/signature/src/main/resources/signature.yml /Users/cleutonsampaio/Documents/projetos/dockertest
+cp $WORKSPACE/signature/Dockerfile /Users/cleutonsampaio/Documents/projetos/dockertest</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers/>

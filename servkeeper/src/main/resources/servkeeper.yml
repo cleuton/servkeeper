@@ -1,0 +1,34 @@
+dockerHost: "https://192.168.59.103:2376"
+dockerCertPath: "/Users/cleutonsampaio/.boot2docker/certs/boot2docker-vm"
+zkHost: "localhost:2181"
+path:  "/Users/cleutonsampaio/Documents/projetos/dockertest"
+imageName: "signatureimage"
+containerBaseName: "signatureserver"
+sourcePortNumber: 3000
+startServerInstances: 2
+minServerInstances: 1
+maxServerInstances: 5
+maxRequestLimit: 10
+minRequestLimit: 5
+serviceTestPah: "/signature/checkstatus"
+serverAddresses: 
+  - host: "192.168.59.103"
+    port: 3000
+  - host: "192.168.59.103"
+    port: 3001
+  - host: "192.168.59.103"
+    port: 3002
+  - host: "192.168.59.103"
+    port: 3003
+  - host: "192.168.59.103"
+    port: 3004
+  - host: "192.168.59.103"
+    port: 3005
+    
+server:
+  applicationConnectors:
+  - type: http
+    port: 3000
+  adminConnectors:
+  - type: http
+    port: 3300

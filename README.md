@@ -13,3 +13,8 @@ Using the champion formula:
 - Docker, to climb LXC containers on demand;
 - Apache Curator, to facilitate the use of ZooKeeper;
 - Jenkins, to deploy and verify instances.
+
+## So many projects... 
+
+Ok, let me explain that: 
+- ** servkeeper **: 

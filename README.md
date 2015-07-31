@@ -1,7 +1,7 @@
 # servkeeper
 ## Microservice Curator Server
 
-Can you imagine how difficult it must be to distribute micro efficiently services with elastic scalability, continuous delivery and active monitoring?
+Can you imagine how difficult it must be to efficiently deploy micro services with elastic scalability, continuous delivery and active monitoring?
 
 * How will you scale up, down?
 * How will you manage multiple instances?
@@ -35,7 +35,7 @@ Ok, let me explain that:
 - ServiceClient : The API for micro services. They use it to increment the shared request counter;
 - signature : A micro service sample.
 
-## Using SerKeeper:
+## Using ServKeeper:
 
 Build and run the server. It has some REST routes: 
 - ../servkeeper/requests : Show the total requests received by all services instances;

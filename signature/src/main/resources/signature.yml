@@ -1,7 +1,7 @@
 keystorePath: "*"
 alias: meucertificado
 keystorePassword: teste001
-zpServerAddress: 10.29.131.148:2181
+zpServerAddress: 10.29.131.226:2181
 server:
   applicationConnectors:
   - type: http

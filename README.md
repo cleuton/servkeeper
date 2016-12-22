@@ -2,6 +2,8 @@
 
 ## Microservice Curator Server and Architecture
 
+[http://servkeeper.info](http://servkeeper.info)
+
 **Servkeeper** chosen as sustainable platform for the **[Kuaray Project!](http://kuaray.org)!**
 
 ![Kuaray Logo](http://1.bp.blogspot.com/-Rf4q4crsbP4/WCZLMZTzs-I/AAAAAAAAHOc/ZYkzKI1safUfT_y0wCgBvf-jMSeyboW-wCK4B/s1600/kuaray.png)

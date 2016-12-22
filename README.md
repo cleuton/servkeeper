@@ -1,7 +1,6 @@
 ![servkeeper logo](servkeeper.png)
 
-# servkeeper
-## Microservice Curator Server
+## Microservice Curator Server and Architecture
 
 **Servkeeper** chosen as sustainable platform for the **[Kuaray Project!](http://kuaray.org)!**
 
